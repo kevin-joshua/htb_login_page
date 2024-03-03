@@ -1,8 +1,6 @@
 input[type="checkbox"] {
   display: none;
 }
-
-/* Style for custom checkbox */
 .custom-checkbox {
   display: inline-block;
   position: relative;
@@ -22,18 +20,19 @@ input[type="checkbox"] {
   position: absolute;
   left: 0;
   top: 0;
-  height: 15px; /* Adjust as needed for the desired checkbox size */
+  height: 15px; 
   width: 15px;
-  background-color: rgb(26, 35, 50); /* Background color of the checkbox */
-  border: 1px solid rgb(159, 239, 0); /* Border color */
-  border-radius: 4px; /* Optional: Rounded corners */
+  background-color: rgb(26, 35, 50);
+  border: 1px solid rgb(159, 239, 0); 
+  border-radius: 4px; 
+  transition: background-color 0.15s;
 }
 
-/* Style for the checkmark when checkbox is checked */
+
 .custom-checkbox input:checked + .checkmark:after {
-  content: '\2713'; /* Unicode checkmark character */
+  content: '\2713';
   display: block;
-  color: #fff; /* Color of the checkmark */
+  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,7 +40,6 @@ input[type="checkbox"] {
 }
 .custom-checkbox input:checked + .checkmark {
   background-color:rgb(159, 239, 0);
-  /* Adjust as needed for the desired checked background color */
 }
 
 .custom{
