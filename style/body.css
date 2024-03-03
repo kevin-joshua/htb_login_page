@@ -1,0 +1,70 @@
+.login-body2{
+  border-width: 5px;
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  padding: 48px 20px 20px 20px;
+}
+.Email{
+  background-color: rgb(17, 25, 39);
+  width: 435px;
+  height: 36px;
+  border-radius: 3px;
+  border-width: 0.8px;
+  border-color: rgb(17, 25, 39);
+  border-style: solid;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+.password{
+  background-color: rgb(17, 25, 39);
+  width: 435px;
+  height: 36px;
+  border-radius: 3px;
+  border-width: 0.8px;
+  border-color: rgb(17, 25, 39);
+  border-style: solid;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+.title{
+  color: rgb(157, 155, 155);
+  margin-bottom: 8px;
+  text-align: left;
+}
+.button{
+  background-color: rgb(159, 239, 0);
+  width: 463px;
+  height: 54px;
+  padding: 10px 15px;
+  border-width: 0.8px;
+  border-radius: 5px;
+  margin-top: 20px;
+  border-style: solid;
+  border-color: rgb(159, 239, 0);
+  transition: box-shadow 0.15s;
+}
+.button:hover{
+  opacity: 0.8;
+}
+.button:active{
+ box-shadow: 3px 3px 1.5px rgba(159, 239, 0, 1);
+}
+.key{
+  height: 21px;
+  width: 14px;
+  margin-bottom: -5px;
+}
+.lock{
+  height: 21px;
+  width: 14px;
+  margin-bottom: -5px;
+}
+.flex-row{
+  margin-top: 20px;
+  margin-bottom: 15px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+cursor: pointer;
+}

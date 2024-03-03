@@ -1,0 +1,23 @@
+body{
+  background-color:  rgb(19, 30, 48);
+  padding-bottom: 50px;
+  a {text-decoration: none; }
+}
+.main-body{
+  display: flex;
+  background-color:  rgb(19, 30, 48);
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.container{
+  text-align: center;
+  padding-top: 48px;
+  margin: 40px 40px;
+}
+.login-body{
+ background-color: rgb(26, 35, 50);
+}
+p{
+  color: rgb(179, 177, 177);
+}
